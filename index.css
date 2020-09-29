@@ -1,0 +1,30 @@
+/* change the navbar background color  */
+
+.navbar-custom {
+    background-color: #001F2b;
+}
+
+/* change the link and text color */
+
+.navbar-custom .navbar-text, .navbar-custom .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.7);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 26px;
+}
+
+#burger-button {
+    outline: none;
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+}
+
+.navbar-custom
+/* change the color of active or hovered links */
+
+.navbar-custom .nav-item.active .nav-link, .navbar-custom .nav-item:hover .nav-link {
+    color: #ffffff;
+}
