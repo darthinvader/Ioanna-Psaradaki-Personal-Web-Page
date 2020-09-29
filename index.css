@@ -28,3 +28,8 @@
 .navbar-custom .nav-item.active .nav-link, .navbar-custom .nav-item:hover .nav-link {
     color: #ffffff;
 }
+
+#stars-image {
+    height: 100%;
+    width: 100%;
+}
