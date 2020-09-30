@@ -52,7 +52,7 @@
     border-color: black;
 }
 
-/* #Home:after {
+#Home:after {
     position: absolute;
     content: " ";
     top: 0;
@@ -61,8 +61,4 @@
     height: 100%;
     z-index: 0;
     background-color: rgba(0, 0, 255, 0.1);
-} */
-
-#Profile {
-    z-index: 1;
 }
