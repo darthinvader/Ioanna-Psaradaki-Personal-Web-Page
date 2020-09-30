@@ -45,14 +45,20 @@
   z-index: -2;
 }
 
-#Home h1 {
+h1 {
   font-family: "Montserrat", sans-serif;
   font-size: 80px;
+  z-index: 1;
+  text-align: center;
+  margin-top: 1em;
+}
+
+#Home h1 {
+  margin-top: 0px;
   color: white;
   border-style: solid;
   border-width: 0px 0px 4px 0px;
   border-color: black;
-  z-index: 1;
   padding-bottom: 20px;
 }
 
@@ -72,4 +78,16 @@
   height: 100%;
   z-index: -1;
   background-color: rgba(0, 0, 255, 1);
+}
+
+@media screen and (max-width: 991px) {
+  h1 {
+    font-size: 36px;
+  }
+  #Home h1 {
+    padding-bottom: 9px;
+  }
+  #Home h3 {
+    font-size: 24px;
+  }
 }
