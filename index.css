@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 /* change the navbar background color  */
 
 .navbar-custom {
