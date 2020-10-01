@@ -57,9 +57,12 @@ h1 {
 h3 {
   font-family: "Montserrat", sans-serif;
   font-size: 40px;
-
   text-align: center;
   margin-top: 1em;
+}
+
+#ioanna-image {
+  border-width: 0.25em !important;
 }
 
 #Home h1 {
