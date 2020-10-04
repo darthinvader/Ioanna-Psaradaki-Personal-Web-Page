@@ -1,20 +1,50 @@
+:root {
+  --heading-font: "Montserrat", sans-serif;
+  --paragraph-font: "Merriweather", serif;
+  --heading-size: 80px;
+  --heading2-size: 40px;
+  --navbar-font-size: 26px;
+  --paragraph-size: 20px;
+  --navbar-color: #001f2b;
+  --footer-color: #292929;
+}
+
 html {
   scroll-behavior: smooth;
+}
+
+p {
+  font-family: var(--paragraph-font);
+}
+
+h1 {
+  font-family: var(--heading-font);
+  font-size: var(--heading-size);
+  font-weight: 600;
+  z-index: 1;
+  text-align: center;
+}
+
+h2 {
+  font-family: var(--heading2-font);
+  font-size: var(--heading2-size);
+  font-weight: 400;
+  z-index: 1;
+  text-align: center;
 }
 
 /* change the navbar background color  */
 
 .navbar-custom {
-  background-color: #001f2b;
+  background-color: var(--navbar-color);
 }
 
 /* change the link and text color */
 
-.navbar-custom .navbar-text,
-.navbar-custom .navbar-nav .nav-link {
+.navbar-custom .navbar-text, .navbar-custom .navbar-nav .nav-link {
   color: rgba(255, 255, 255, 0.7);
   font-family: "Montserrat", sans-serif;
-  font-size: 26px;
+  font-size: var(--navbar-font-size);
 }
 
 #burger-button {
@@ -27,20 +57,14 @@ html {
   outline: none;
 }
 
-p {
-  font-family: "Merriweather", serif;
-}
-
 /* change the color of active or hovered links */
 
-.navbar-custom .nav-item.active .nav-link,
-.navbar-custom .nav-item:hover .nav-link {
+.navbar-custom .nav-item.active .nav-link, .navbar-custom .nav-item:hover .nav-link {
   color: #ffffff;
 }
 
 #Home {
-  background: no-repeat center fixed
-    url(images/Stars\ in\ a\ vase\ Full\ HD.jpg);
+  background: no-repeat center fixed url(images/Stars\ in\ a\ vase\ Full\ HD.jpg);
   background-color: #cccccc;
   background-size: cover;
   width: 100vw;
@@ -54,23 +78,24 @@ p {
   margin-bottom: 0px;
 }
 
-h1 {
-  font-family: "Montserrat", sans-serif;
-  font-size: 80px;
-  font-weight: 600;
-  z-index: 1;
-  text-align: center;
-}
-
-h3 {
-  font-family: "Montserrat", sans-serif;
-  font-size: 40px;
-  text-align: center;
-  margin-top: 1em;
-}
-
 #ioanna-image {
   border-width: 0.25em !important;
+  margin-top: 25px;
+}
+
+#twitter {
+  color: #55ACEE;
+  font-size: 20px;
+}
+
+#twitter img {
+  display: inline-block;
+}
+
+#twitter p {
+  display: inline-block;
+  padding-left: 8px;
+  font-family: var(--paragraph-font)
 }
 
 #Home h1 {
@@ -81,13 +106,6 @@ h3 {
   border-color: black;
   padding-bottom: 20px;
   margin-top: -1em;
-}
-
-#Home h2 {
-  font-family: "Montserrat", sans-serif;
-  font-size: 40px;
-  color: white;
-  z-index: 1;
 }
 
 #Home:after {
@@ -101,16 +119,22 @@ h3 {
   background-color: rgba(0, 0, 255, 1);
 }
 
-#Profile p {
-  font-size: 26px;
-}
-#Profile img {
-  margin-top: 100px;
+#Home h2 {
+  color: white;
 }
 
 #Profile {
   padding-top: 75px;
   margin-top: 0px;
+  margin-bottom: 0px;
+  background-color: white;
+}
+
+#CV {
+  padding-top: 75px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-color: #404040;
 }
 
 @media screen and (max-width: 991px) {
