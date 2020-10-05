@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="70" height="70" viewBox="0 0 70 70">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_11" data-name="Rectangle 11" width="70" height="70" transform="translate(0 2160)" fill="#404040"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="1" y1="0.805" x2="0" y2="0.21" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#409fff"/>
+      <stop offset="1" stop-color="#2157cf"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="1" y1="0.805" x2="0" y2="0.21" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#001cff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#5aeaff" stop-opacity="0.2"/>
+    </linearGradient>
+    <radialGradient id="radial-gradient" cx="0.332" cy="0.234" r="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#fff"/>
+    </radialGradient>
+  </defs>
+  <g id="Mask_Group_1" data-name="Mask Group 1" transform="translate(0 -2160)" clip-path="url(#clip-path)">
+    <g id="Page-1" transform="translate(-5.106 2160.041)">
+      <g id="ads_partial_logo_dark_background" transform="translate(0 0)">
+        <g id="bbb_logo">
+          <g id="Page-1-2" data-name="Page-1">
+            <g id="bbb_logo-2" data-name="bbb_logo">
+              <g id="background" transform="translate(55.808 0) rotate(58)">
+                <path id="Oval-13" d="M22.269,0A23.56,23.56,0,0,1,46.023,23.968,24.73,24.73,0,0,1,29.776,46.943l.012-1.366a23.418,23.418,0,0,0,14.962-21.6A22.307,22.307,0,0,0,22.258,1.288c-8.6.078-15.776,4.278-19.691,11.426A17.682,17.682,0,0,0,1.034,16.6,7.431,7.431,0,0,0,0,16.239C3.043,6.391,10.745.106,22.269,0ZM13.825,47.055l.012-1.369a21.158,21.158,0,0,1-11.543-9.98,5.931,5.931,0,0,0-1.314.406A23.5,23.5,0,0,0,13.825,47.055Z" transform="translate(0 0)" fill="#a5a5a5" fill-rule="evenodd"/>
+              </g>
+              <g id="magnifying-glass" transform="translate(52.438 7.175) rotate(58)">
+                <path id="Combined-Shape" d="M0,12.938A18.121,18.121,0,0,1,3.677,6.223,17.532,17.532,0,0,1,28.5,4.248a17.8,17.8,0,0,1,1.509,25.011A17.532,17.532,0,0,1,5.187,31.233a17.216,17.216,0,0,1-4.095-5.31,10.746,10.746,0,0,0,1.717-5.737A10.4,10.4,0,0,0,0,12.938Z" transform="translate(0.777 0)" fill="#9b9b9b" fill-rule="evenodd"/>
+                <path id="Oval-9" d="M12.807,0A12.554,12.554,0,0,1,25.535,12.487,12.744,12.744,0,0,1,12.728,25.052,12.554,12.554,0,0,1,0,12.565,12.744,12.744,0,0,1,12.807,0Z" transform="translate(0 19.285) rotate(-49)" fill="url(#linear-gradient)"/>
+                <path id="Oval-9-2" data-name="Oval-9" d="M12.807,0A12.554,12.554,0,0,1,25.535,12.487,12.744,12.744,0,0,1,12.728,25.052,12.554,12.554,0,0,1,0,12.565,12.744,12.744,0,0,1,12.807,0Z" transform="translate(0 19.285) rotate(-49)" fill="url(#linear-gradient)"/>
+                <path id="Oval-9-3" data-name="Oval-9" d="M11.1,0a10.879,10.879,0,0,1,11.03,10.821,11.044,11.044,0,0,1-11.1,10.889A10.879,10.879,0,0,1,0,10.889,11.044,11.044,0,0,1,11.1,0Z" transform="translate(2.378 19.095) rotate(-49)" fill="url(#linear-gradient-3)"/>
+                <g id="Group-5" transform="translate(3.55 51.629) rotate(-58)">
+                  <g id="Group-6" transform="translate(19.424 0) rotate(57)">
+                    <path id="Rectangle-7" d="M0,0,5.673.051,5.7,3.031.027,2.98Z" transform="matrix(-0.017, 1, -1, -0.017, 4.828, 0.053)" fill="#9b9b9b"/>
+                    <path id="Rectangle-9" d="M.072,8.756.13,2.491l-.006.67A3.189,3.189,0,0,1,3.259,0h0A3.051,3.051,0,0,1,6.337,3.1L6.359.675,6.3,6.94l-.088,9.668a3.189,3.189,0,0,1-3.135,3.16h0A3.051,3.051,0,0,1,0,16.664L.072,8.756Z" transform="translate(0 3.393)" fill="#9b9b9b" fill-rule="evenodd"/>
+                  </g>
+                  <g id="Group-6-2" data-name="Group-6" transform="matrix(0.602, 0.799, -0.799, 0.602, 17.036, 2.734)">
+                    <path id="Rectangle-9-2" data-name="Rectangle-9" d="M3.882.058A3.077,3.077,0,0,0,3.255,0,3.188,3.188,0,0,0,.122,3.161l.006-.67L.071,8.758,0,16.669a3.052,3.052,0,0,0,3.077,3.105,3.108,3.108,0,0,0,.709-.088,3.058,3.058,0,0,1-2.451-3.047l.071-7.911.056-6.267-.006.67A3.2,3.2,0,0,1,3.882.058Z" transform="translate(3.867 20.037) rotate(-175)" fill="#878787" fill-rule="evenodd"/>
+                  </g>
+                  <path id="Rectangle-9-3" data-name="Rectangle-9" d="M.029.013,1.5,0,1.465,3.615,0,3.228Z" transform="translate(21.101 2.982) rotate(58)" fill="#878787" fill-rule="evenodd"/>
+                </g>
+              </g>
+              <path id="Oval-20" d="M725.447,176.343a5.966,5.966,0,1,0-5.965,5.846A5.907,5.907,0,0,0,725.447,176.343Z" transform="translate(-687.907 -164.249)" fill-rule="evenodd" fill="url(#radial-gradient)"/>
+              <g id="a" transform="translate(38.553 7.703)">
+                <text id="a-2" data-name="a" transform="translate(0 30)" fill="#fff" font-size="28" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">a</tspan></text>
+              </g>
+              <path id="Rectangle-10" d="M2.7,12.678C2.75,7.676,0,0,0,0S5.88-.237,9.44,2.677A13.357,13.357,0,0,1,13.948,13.3a14.468,14.468,0,0,1-4.7,9.175,14.2,14.2,0,0,1-9.08,2.788S2.652,17.681,2.7,12.678Z" transform="translate(55.863 22.94) rotate(52)" fill="rgba(0,0,0,0.09)" fill-rule="evenodd"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
