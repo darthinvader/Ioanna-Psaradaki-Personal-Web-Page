@@ -83,19 +83,23 @@ h2 {
   margin-top: 25px;
 }
 
-#twitter {
+.link-image {
   color: #55ACEE;
   font-size: 20px;
 }
 
-#twitter img {
-  display: inline-block;
+.link-image:hover {
+  text-decoration: none;
 }
 
-#twitter p {
+.link-image p {
   display: inline-block;
   padding-left: 8px;
   font-family: var(--paragraph-font)
+}
+
+#twitter {
+  margin-left: 0.5em;
 }
 
 #Home h1 {
