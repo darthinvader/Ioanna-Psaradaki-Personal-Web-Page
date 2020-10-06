@@ -1,9 +1,13 @@
+/*variables */
+
 :root {
   --heading-font: "Montserrat", sans-serif;
   --paragraph-font: "Merriweather", serif;
   --heading-size: 80px;
   --heading2-size: 40px;
   --navbar-font-size: 26px;
+  --heading3-size: 24px;
+  --heading4-size: 16px;
   --paragraph-size: 20px;
   --navbar-color: #001f2b;
   --footer-color: #292929;
@@ -88,7 +92,7 @@ h2 {
 
 .link-image {
   color: #55ACEE;
-  font-size: 20px;
+  font-size: var(--paragraph-size);
 }
 
 .link-image:hover {
@@ -126,7 +130,7 @@ h2 {
   background-color: rgba(0, 0, 255, 1);
 }
 
-#Home h2 {
+#Home h2, #CV h1, #CV h2, #CV h3, #CV h4, #CV p {
   color: white;
 }
 
@@ -142,6 +146,21 @@ h2 {
   margin-top: 0px;
   margin-bottom: 0px;
   background-color: #404040;
+}
+
+#CV h2 {
+  text-align: left;
+}
+
+#CV h3 {
+  font-size: var(--heading3-size);
+  font-family: var(--heading-font);
+  font-weight: 400;
+}
+
+#CV h4 {
+  font-size: var(--heading4-size);
+  font-family: var(--heading-font);
 }
 
 @media screen and (max-width: 991px) {
