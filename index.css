@@ -163,6 +163,10 @@ h2 {
   font-family: var(--heading-font);
 }
 
+#CV .row {
+  padding-top: 2em;
+}
+
 @media screen and (max-width: 991px) {
   h1 {
     font-size: 36px;
