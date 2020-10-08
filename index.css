@@ -12,6 +12,7 @@
   --navbar-color: #001f2b;
   --section-color: #404040;
   --footer-color: #292929;
+  --section-padding: 100px;
 }
 
 /*Smooth scrolling when clicking on the navbar*/
@@ -83,6 +84,11 @@ h4 {
 
 .navbar-custom .nav-item.active .nav-link, .navbar-custom .nav-item:hover .nav-link {
   color: #ffffff;
+}
+
+.section {
+  padding-top: var(--section-padding);
+  padding-bottom: var(--section-padding);
 }
 
 #Home {
@@ -178,6 +184,16 @@ h4 {
 #Research-Interests {
   background-color: white;
   color: black;
+}
+
+#Public-Outreach {
+  background-color: var(--section-color);
+  color: white;
+}
+
+#Contact {
+  background-color: var(--footer-color);
+  color: white;
 }
 
 @media screen and (max-width: 991px) {
