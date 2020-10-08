@@ -10,12 +10,17 @@
   --heading4-size: 16px;
   --paragraph-size: 20px;
   --navbar-color: #001f2b;
+  --section-color: #404040;
   --footer-color: #292929;
 }
+
+/*Smooth scrolling when clicking on the navbar*/
 
 html {
   scroll-behavior: smooth;
 }
+
+/*Global paragraph and heading styles*/
 
 p {
   font-family: var(--paragraph-font);
@@ -37,6 +42,17 @@ h2 {
   text-align: center;
 }
 
+h3 {
+  font-size: var(--heading3-size);
+  font-family: var(--heading-font);
+  font-weight: 400;
+}
+
+h4 {
+  font-size: var(--heading4-size);
+  font-family: var(--heading-font);
+}
+
 /* change the navbar background color  */
 
 .navbar-custom {
@@ -50,6 +66,8 @@ h2 {
   font-family: "Montserrat", sans-serif;
   font-size: var(--navbar-font-size);
 }
+
+/*Custom burger button style*/
 
 #burger-button {
   outline: none;
@@ -92,7 +110,6 @@ h2 {
 
 .link-image {
   color: #55ACEE;
-  font-size: var(--paragraph-size);
 }
 
 .link-image:hover {
@@ -100,13 +117,14 @@ h2 {
 }
 
 .link-image p {
+  font-size: var(--paragraph-size);
   display: inline-block;
   padding-left: 8px;
   font-family: var(--paragraph-font)
 }
 
 #twitter {
-  margin-left: 0.5em;
+  margin-left: 1.5em;
 }
 
 #Home h1 {
@@ -145,26 +163,21 @@ h2 {
   padding-top: 75px;
   margin-top: 0px;
   margin-bottom: 0px;
-  background-color: #404040;
+  background-color: var(--section-color);
+  color: white;
 }
 
 #CV h2 {
   text-align: left;
 }
 
-#CV h3 {
-  font-size: var(--heading3-size);
-  font-family: var(--heading-font);
-  font-weight: 400;
-}
-
-#CV h4 {
-  font-size: var(--heading4-size);
-  font-family: var(--heading-font);
-}
-
 #CV .row {
   padding-top: 2em;
+}
+
+#Research-Interests {
+  background-color: white;
+  color: black;
 }
 
 @media screen and (max-width: 991px) {
@@ -174,7 +187,16 @@ h2 {
   #Home h1 {
     padding-bottom: 9px;
   }
-  #Home h2 {
+  h2 {
     font-size: 24px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+  h4 {
+    font-size: 16px;
+  }
+  p {
+    font-size: 14px;
   }
 }
