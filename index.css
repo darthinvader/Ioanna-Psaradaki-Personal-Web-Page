@@ -237,4 +237,9 @@ h4 {
   p {
     font-size: 14px;
   }
+  #contact-me {
+    flex-direction: column;
+    justify-content: baseline;
+    align-content: stretch;
+  }
 }
