@@ -197,6 +197,27 @@ h4 {
   padding-bottom: 400px;
 }
 
+#email {
+  display: inline-block;
+  background-color: lightgray;
+  color: black;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-bottom: 1px;
+  padding-top: -2px;
+  border-radius: 5px;
+  font-size: 30px;
+  font-family: var(--heading-font);
+  font-weight: 600;
+}
+
+#contact-me {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
 @media screen and (max-width: 991px) {
   h1 {
     font-size: 36px;
